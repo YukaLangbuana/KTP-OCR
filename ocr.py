@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from PIL import Image
 
 ## (1) Read
-img = cv2.imread("dataset/ktpfigo_cropped.png")
+img = cv2.imread("dataset/ktp_test.png")
 
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
