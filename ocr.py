@@ -1,3 +1,5 @@
+#LEGACY VERSION
+
 import cv2
 import numpy as np
 import pytesseract
@@ -5,7 +7,7 @@ import matplotlib.pyplot as plt
 from PIL import Image
 
 ## (1) Read
-img = cv2.imread("dataset/ktp_test.png")
+img = cv2.imread("ktpocr/dataset/ktp_test.png")
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 ## (2) Threshold

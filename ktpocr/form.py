@@ -1,0 +1,18 @@
+class KTPInformation(object):
+    def __init__(self):
+        self.nik = ""
+        self.nama = ""
+        self.tempat_lahir = ""
+        self.tanggal_lahir = ""
+        self.jenis_kelamin = ""
+        self.golongan_darah = ""
+        self.alamat = ""
+        self.rt = ""
+        self.rw = ""
+        self.kelurahan_atau_desa = ""
+        self.kecamatan = ""
+        self.agama = ""
+        self.status_perkawinan = ""
+        self.pekerjaan = ""
+        self.kewarganegaraan = ""
+        berlaku_hingga = "SEMUR HIDUP"
