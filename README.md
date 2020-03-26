@@ -11,7 +11,7 @@
     <img src="https://rossrightangle.files.wordpress.com/2012/05/e-ktp-contoh.jpg">
 </div>
 
-**KTP-OCR** is a python package that attempts to create a production grade KTP extractor. The aim of the package is to extract as much information as possible yet retain the integrity of the information.
+**KTP-OCR** is a open source python package that attempts to create a production grade KTP extractor. The aim of the package is to extract as much information as possible yet retain the integrity of the information.
 
 ---
 
