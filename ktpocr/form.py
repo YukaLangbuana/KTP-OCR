@@ -1,4 +1,4 @@
-class KTPInformation(object):
+class KTPInformation():
     def __init__(self):
         self.nik = ""
         self.nama = ""
@@ -15,4 +15,4 @@ class KTPInformation(object):
         self.status_perkawinan = ""
         self.pekerjaan = ""
         self.kewarganegaraan = ""
-        berlaku_hingga = "SEMUR HIDUP"
+        self.berlaku_hingga = "SEMUR HIDUP"
