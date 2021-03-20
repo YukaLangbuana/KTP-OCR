@@ -14,13 +14,21 @@
 **KTP-OCR** is a open source python package that attempts to create a production grade KTP extractor. The aim of the package is to extract as much information as possible yet retain the integrity of the information.
 
 ---
+<h2 style="font-weight:800;">Requirements</h2>
+You will need tesseract with indonesian language support installed in your system. 
+
+```console
+$ brew install tesseract-lang
+```
+---
 
 <h2 style="font-weight: 800;">🚀 How to launch</h2>
 
 ```console
 $ git clone https://github.com/YukaLangbuana/KTP-OCR.git
 $ cd KTP-OCR
-$ python3 ocr.py
+$ pip install -r requirements.txt
+$ python3 ocr.py <path-image>
 ```
 ---
 
