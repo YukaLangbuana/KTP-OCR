@@ -128,3 +128,4 @@ dmypy.json
 #Local Files
 .vscode/
 env/
+.DS_Store
